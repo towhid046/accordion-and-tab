@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Accordion practice</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css" integrity="sha512-KyZXEAg3QhqLMpG8r+nbzFjZXnJVJilgPeRU6PAojYlOHxVHmNtGKdUz5wpgWbR6pJSQ+dBmKepkFN8DpYSn2+A==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="./style.css">
+</head>
+<body>
+    <div class="container">
+        <div class="accroding-div">
+            <div class="according-title">
+                <h2 class="accroding-title-text">Accordion Title 1 <a class="according-icon" href="#accroding-content1">+</a></h2>
+            </div>
+            <div class="accroding-content" id="accroding-content1" >
+                <p class="accroding-content-text">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Necessitatibus, hic! Saepe eveniet repellendus deserunt, dolorum voluptatibus quibusdam, sit totam atque, hic sunt tempore velit nemo ex veniam reiciendis error. Deserunt quo iure nulla neque, quas distinctio quidem reiciendis ducimus placeat!  <a class="according-icon minus-icon" href="#accroding-content1"><span>-</span></a></p>
+            </div>
+        </div>
+
+        <div class="accroding-div">
+            <div class="according-title">
+                <h2 class="accroding-title-text">Accordion Title 2 <a class="according-icon" href="#accroding-content2">+</a></h2>
+            </div>
+            <div class="accroding-content" id="accroding-content2" >
+                <p class="accroding-content-text">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Necessitatibus, hic! Saepe eveniet repellendus deserunt, dolorum voluptatibus quibusdam, sit totam atque, hic sunt tempore velit nemo ex veniam reiciendis error. Deserunt quo iure nulla neque, quas distinctio quidem reiciendis ducimus placeat!  <a class="according-icon minus-icon" href="#accroding-content2"><span>-</span></a></p>
+            </div>
+        </div>
+
+        <div class="accroding-div">
+            <div class="according-title">
+                <h2 class="accroding-title-text">Accrodion Title 3 <a class="according-icon" href="#accroding-content3">+</a></h2>
+            </div>
+            <div class="accroding-content" id="accroding-content3" >
+                <p class="accroding-content-text">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Necessitatibus, hic! Saepe eveniet repellendus deserunt, dolorum voluptatibus quibusdam, sit totam atque, hic sunt tempore velit nemo ex veniam reiciendis error. Deserunt quo iure nulla neque, quas distinctio quidem reiciendis ducimus placeat!  <a class="according-icon minus-icon" href="#accroding-content3"><span>-</span></a></p>
+            </div>
+        </div>
+
+    </div>
+
+
+
+
+
+
+    <section class="tabSection">
+        <div class="container">
+
+            <div class="tabItems">
+                <div class="tabList">
+                    <ul class="tabLists">
+                        <li><a class="activeTab" href="#tabContent1">Tab 1</a></li>
+                        <li><a href="#tabContent2">Tab 2</a></li>
+                        <li><a href="#tabContent3">Tab 3</a></li>
+                    </ul>
+                </div>
+
+                <div class="tabContents">
+
+                    <div style="display:block" class="tabContent" id="tabContent1">
+                        Lorem ipstryum dolor sit amet, consectetur adipisicing elit. Quo, eius nemo rerum fugiat a impedit quaerat delectus voluptatem harum suscipit tempora deleniti pariatur perferendis nulla fugit doloribus? Voluptatum eum enim, doloremque perferendis deserunt perspiciatis odit vel expedita modi minus! Itaque.
+                    </div>
+                    <div class="tabContent" id="tabContent2">
+                        Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quo, eius nemo rerum sdffugiat a impedit quaerat delectus voluptatem harum suscipit tempora deleniti pariatur perferendis nulla fugit doloribus? Voluptatum eum enim, doloremque perferendis deserunt perspiciatis odit vel expedita modi minus! Itaque.
+                    </div>
+                    <div class="tabContent" id="tabContent3">
+                        Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quo, eius nemo rerum fugiat a impedit quaerat delectus voluptatem harum suscipiasdt tempora deleniti pariatur perferendis nulla fugit doloribus? Voluptatum eum enim, doloremque perferendis deserunt perspiciatis odit vel expedita modi minus! Itaque.
+                    </div>
+                    
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <script src="https://code.jquery.com/jquery-2.2.4.min.js"></script>
+    <script src="./script.js"></script>
+
+</body>
+</html>
